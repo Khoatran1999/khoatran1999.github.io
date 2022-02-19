@@ -1,0 +1,14 @@
+.partner {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partner-container {
+    gap: 0 20px;
+  }
+}
